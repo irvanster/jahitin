@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css?family=Alegreya+Sans');
+@import url('https://fonts.googleapis.com/css?family=Shrikhand');
+
+a{
+    color:#47649F;
+    
+}
+
+body{
+    font-family:'helvetica';    
+}
+table.meno{
+padding-top: 30px;
+}
+.lf {
+  text-align: right;
+}
+
+h1.logo 
+{
+  font-family: 'Shrikhand', cursive;
+  color : #ffffff;
+  right: 0px;
+}
+
+.lg{
+  width: 500px;
+  align-items: center;
+  position: relative;
+  text-align: center;
+  padding-top: 12px;
+}
+.mn {
+  width: 50px;
+  padding-left: 15px;
+  padding-top: 12px;
+}
+.ico {
+  width: 50px;
+  padding-top: 12px;
+}
+.header-mn{
+  font-size: 20px;
+  font-style: bold;
+  margin-right: 5px;
+  padding-top: 20px;
+  font-family: 'Alegreya', cursive;
+}
+div.konten{
+  
+  border : 2px solid #eaeaea;
+ }
+.post{
+  padding: 0px 2px;
+  margin: 20px;
+  box-shadow : 0 2px 4px rgba(0, 0, 0, 0.7);
+  z-index: 2;
+}
+.tgl_post{
+  color : #a8a6a6;
+}
+.span_mn{
+  color :#a8a6a6;
+}
+.data_post{
+  box-shadow : 0 2px 4px rgba(0, 0, 0, 0.7);
+}
+.link_mn{
+  font-weight: normal;
+}
+
+.img-post{
+  display: block;
+   margin-left: auto; 
+   margin-right: auto; 
+   width: 50%; 
+   padding-top : 3px;
+}
+@media only screen and (min-width: 300px) {
+  .img-post{
+    width: 100%;
+  }
+ .logo {
+  font-size : 20px;
+  }
+  .utama {
+    width: 300px;
+  }
+  .konten {
+    margin: 0px 0px;
+    padding: 0px 0px;
+  }
+  .tgl_post {
+    font-size: 15px;
+  }
+  .span_mn{
+    font-size: 13px;
+  }
+  .link_mn{
+  font-size: 14px;
+
+}
+
+}
+@media only screen and (min-width: 500px) {
+.img-post{
+    width: 85%;
+  }
+  .logo {
+  font-size : 23px;
+  }
+  .konten {
+    margin: 0px 5% ;
+  }
+ .span_mn{
+    font-size: 14px;
+  }
+  .link_mn{
+  font-size: 16px;
+}
+ 
+}
+
+@media only screen and (min-width: 700px) {
+ .img-post{
+    width: 75%;
+  }
+  .logo {
+  font-size : 26px;
+  }
+  .konten {
+    margin: 0px 7% ;
+  }
+   .span_mn{
+    font-size: 15px;
+  }
+  .link_mn{
+  font-size: 17px;
+}
+}
+@media only screen and (min-width: 900px) {
+ .img-post{
+    width: 90%;
+  }
+  .logo {
+  font-size : 26px;
+  }
+ .konten {
+    margin: 0px 25%;
+  }
+   .span_mn{
+    font-size: 16px;
+  }
+}
+.w3-bar-item .w3-button .w3-large {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.w3-sidebar {
+  margin-top: 57px;
+}
+
+.konten-footer-option li{
+    float:left;
+    margin-right:50px;
+    padding-bottom:15px;
+}
+
+.konten-footer-option li a{
+    color:#AFB4BD;
+    font-weight:500;
+    font-size:1.3rem;
+}
+
+.photo-profile{
+    border:1px solid #DDD;    
+}
+
+.anchor-username h4{
+    font-weight:bold;    
+}
+
+.anchor-time{
+    color:#ADB2BB;
+    font-size:1.2rem;
+}
+
+.fb {
+  padding: 70px;
+  margin: auto;
+}
+
